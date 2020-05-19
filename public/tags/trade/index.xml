@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HTML on THS Trading Reports</title>
-    <link>/categories/html/</link>
-    <description>Recent content in HTML on THS Trading Reports</description>
+    <title>Trade on THS Trading Reports</title>
+    <link>/tags/trade/</link>
+    <description>Recent content in Trade on THS Trading Reports</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/html/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/trade/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>/2020/05/19/ths_tradingreport_2020-05-19/</guid>
       <description>Stock trading footsteps of 603378bandTest = bandCrotest(&amp;#39;603378&amp;#39;, K_type = &amp;#39;dailyK&amp;#39;)bandProfit(&amp;#39;603378&amp;#39;, bandRes = bandTest, plot = T)## Finally got 4 trading band: ## ## bandDate BS.Date buyN sellN profit## ----------- ----------- ----- ------ -------## 2020-04-24 2020-05-06 200 0 NA## 2020-04-24 2020-05-11 0 200 750.4## 2020-04-27 2020-05-06 200 0 NA## 2020-04-27 2020-05-11 0 200 750.4## 2020-04-28 2020-05-06 200 0 NA## 2020-04-28 2020-05-11 0 200 750.</description>
-    </item>
-    
-    <item>
-      <title>HangQingMap</title>
-      <link>/hangqing/hangqing/</link>
-      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/hangqing/hangqing/</guid>
-      <description></description>
     </item>
     
   </channel>
