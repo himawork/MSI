@@ -6,10 +6,19 @@
     <description>Recent content in Trade on THS Trading Reports</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/trade/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>THStradingReport</title>
+      <link>/2020/05/20/thstradingreport_2020-05-20/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/20/thstradingreport_2020-05-20/</guid>
+      <description>Stock trading footsteps of 603256bandTest = bandCrotest(&amp;#39;603256&amp;#39;, K_type = &amp;#39;dailyK&amp;#39;)bandProfit(&amp;#39;603256&amp;#39;, bandRes = bandTest, plot = T)## Finally got 2 trading band: ## ## bandDate BS.Date buyN sellN profit## ----------- ----------- ----- ------ -------## 2020-04-16 2020-04-23 200 0 NA## 2020-04-16 2020-05-06 0 200 -116.6## 2020-04-17 2020-04-23 200 0 NA## 2020-04-17 2020-05-06 0 200 -116.6## Profit of 603256 was -233.</description>
+    </item>
     
     <item>
       <title>THS_tradingReport</title>
