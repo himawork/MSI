@@ -6,10 +6,28 @@
     <description>Recent content in Reports on THS Trading Reports</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/reports/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>THS-1_hold</title>
+      <link>/2020/05/27/ths-1_2020-05-27_hold/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/27/ths-1_2020-05-27_hold/</guid>
+      <description>Stock trading footsteps of 603859bandTest = bandCrotest(&amp;#39;603859&amp;#39;, bandFrom = 30, bandNum = 4)bandProfit(&amp;#39;603859&amp;#39;, bandRes = bandTest, plot = T, viewNum = 60)## Finally got 3 trading band: ## ## bandDate BS.Date buyN sellN price FinalHold money profit Hday Pro.day tags ## ----------- ----------- ----- ------ ------- ---------- -------- ------- ----- -------- --------## 2020-05-13 2020-05-20 700 0 33.036 700 26874.8 . .</description>
+    </item>
+    
+    <item>
+      <title>THS-1_sting</title>
+      <link>/2020/05/27/ths-1_2020-05-27_sting/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/27/ths-1_2020-05-27_sting/</guid>
+      <description>Just report front 10 stocks, un-reported were: 603992, 600986, 603363, 600556, 300455, 002343, 300288, 603721, 603035, 300422, 300250, 002373, 002648, 300101, 300109, 002151, 300177, 300513, 600699, 600513, 000987, 600171, 600198, 600685, 603949, 000037, 002760, 002697, 002436, 300429, 000823, 300274, 600521, 002952, 603790, 603115, 300418, 600131, 603037, 002655, 300629, 300132, 603336, 300203, 300439, 600546, 603519, 000066, 002887, 300206, 000733, 603017, 603477Stock trading footsteps of 603533bandTest = bandCrotest(&amp;#39;603533&amp;#39;, bandFrom = 30, bandNum = 4)bandProfit(&amp;#39;603533&amp;#39;, bandRes = bandTest, plot = T, viewNum = 60)## Finally got 3 trading band: ## ## bandDate BS.</description>
+    </item>
     
     <item>
       <title>THS_tradingReport</title>
