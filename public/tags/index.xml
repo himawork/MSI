@@ -1,34 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on THS Trading Reports</title>
+    <title>Tags on THS_1 Trading Reports</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on THS Trading Reports</description>
+    <description>Recent content in Tags on THS_1 Trading Reports</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+<<<<<<< HEAD
     <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate>
+=======
+    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
+>>>>>>> 1bf10b4bc3bd7e542bacfe009e5ee21b2c7c7907
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+<<<<<<< HEAD
       <title>hold</title>
       <link>/tags/hold/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+=======
+      <title>Reports</title>
+      <link>/tags/reports/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+>>>>>>> 1bf10b4bc3bd7e542bacfe009e5ee21b2c7c7907
       
       <guid>/tags/hold/</guid>
       <description></description>
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>Reports</title>
       <link>/tags/reports/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+=======
+      <title>Trade</title>
+      <link>/tags/trade/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/trade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HangQ</title>
+      <link>/tags/hangq/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+>>>>>>> 1bf10b4bc3bd7e542bacfe009e5ee21b2c7c7907
       
       <guid>/tags/reports/</guid>
       <description></description>
     </item>
     
+<<<<<<< HEAD
     <item>
       <title>sting</title>
       <link>/tags/sting/</link>
@@ -56,5 +82,7 @@
       <description></description>
     </item>
     
+=======
+>>>>>>> 1bf10b4bc3bd7e542bacfe009e5ee21b2c7c7907
   </channel>
 </rss>
