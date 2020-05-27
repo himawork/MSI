@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sting on THS Trading Reports</title>
+    <title>sting on THS_1 Trading Reports</title>
     <link>/tags/sting/</link>
-    <description>Recent content in sting on THS Trading Reports</description>
+    <description>Recent content in sting on THS_1 Trading Reports</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/sting/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>THS-1_sting</title>
+      <link>/2020/05/28/ths-1_2020-05-28_sting/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/28/ths-1_2020-05-28_sting/</guid>
+      <description>Just report front 10 stocks, un-reported were: 300455, 300629, 002771, 002635, 300288, 603035, 601689, 300422, 300053, 300664, 002373, 002648, 601098, 300001, 600557, 300101, 300109, 002151, 300177, 300513, 600699, 600513, 300439, 600546, 600171, 600198, 600685, 300721, 603949, 603519, 002813, 000066, 000037, 002331, 002760, 002887, 300206, 002697, 000733, 002436, 300719, 000823, 300125, 002952, 603017, 603566, 300501, 603477, 603790, 603533, 603363, 600556, 002343, 603721, 002661, 300250, 000987, 300429, 300274, 600521, 002655, 300132, 603336, 300203Stock trading footsteps of 603256 [Top]bandTest = bandCrotest(&amp;#39;603256&amp;#39;, bandFrom = 30, bandNum = 4)bandProfit(&amp;#39;603256&amp;#39;, bandRes = bandTest, plot = T, viewNum = 60)## Finally got 3 trading band: ## ## bandDate BS.</description>
+    </item>
     
     <item>
       <title>THS-1_sting</title>

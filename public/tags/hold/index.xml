@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hold on THS Trading Reports</title>
+    <title>hold on THS_1 Trading Reports</title>
     <link>/tags/hold/</link>
-    <description>Recent content in hold on THS Trading Reports</description>
+    <description>Recent content in hold on THS_1 Trading Reports</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/hold/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>THS-1_hold</title>
+      <link>/2020/05/28/ths-1_2020-05-28_hold/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/28/ths-1_2020-05-28_hold/</guid>
+      <description>Stock trading footsteps of 603859 [Top]bandTest = bandCrotest(&amp;#39;603859&amp;#39;, bandFrom = 30, bandNum = 4)bandProfit(&amp;#39;603859&amp;#39;, bandRes = bandTest, plot = T, viewNum = 60)## Finally got 3 trading band: ## ## bandDate BS.Date buyN sellN price FinalHold money profit Hday Pro.day tags ## ----------- ----------- ----- ------ ------- ---------- -------- -------- ----- -------- --------## 2020-05-13 2020-05-20 700 0 33.036 700 26874.8 .</description>
+    </item>
     
     <item>
       <title>THS-1_hold</title>
