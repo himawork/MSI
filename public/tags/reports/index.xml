@@ -6,10 +6,37 @@
     <description>Recent content in Reports on THS_1 Trading Reports</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/reports/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>THS-1_hold</title>
+      <link>/2020/05/30/ths-1_2020-05-30_hold/</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/30/ths-1_2020-05-30_hold/</guid>
+      <description>Stock trading footsteps of 603859 [Top]bandTest = bandSword(&amp;#39;603859&amp;#39;, bandFrom = 30, days = 10, ratio = 0.8)bandProfit(&amp;#39;603859&amp;#39;, bandRes = bandTest, plot = T, viewNum = 60, Proless = 300)## Finally got 4 trading band: ## Just show head 10 lines.## ## bandDate BS.Date buyN sellN price FinalHold money profit Hday Pro.day tags ## ----------- ----------- ----- ------ ------- ---------- -------- ------- ----- -------- --------## 2020-05-08 2020-05-11 200 0 33.</description>
+    </item>
+    
+    <item>
+      <title>THS-1_sting</title>
+      <link>/2020/05/30/ths-1_2020-05-30_sting/</link>
+      <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/30/ths-1_2020-05-30_sting/</guid>
+      <description>Just report front 10 stocks, un-reported were: 300455, 300629, 002771, 002635, 300288, 603035, 601689, 300422, 300053, 300664, 002373, 002648, 601098, 300001, 600557, 300101, 300109, 002151, 300177, 300513, 600699, 600513, 300439, 600546, 600171, 600198, 600685, 300721, 603949, 603519, 002813, 000066, 000037, 002331, 002760, 002887, 300206, 002697, 000733, 002436, 300719, 000823, 300125, 002952, 603017, 603566, 300501, 603477, 603790, 002973, 300429, 600167, 002343, 300250, 603336, 600984, 600521, 603363, 600556, 603721, 002661, 000987, 300274, 603533, 002655, 300132, 300203Stock trading footsteps of 603256 [Top]bandTest = bandSword(&amp;#39;603256&amp;#39;, bandFrom = 30, days = 10, ratio = 0.</description>
+    </item>
+    
+    <item>
+      <title>THS-1_hold</title>
+      <link>/2020/05/29/ths-1_2020-05-29_hold/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/29/ths-1_2020-05-29_hold/</guid>
+      <description>Stock trading footsteps of 603859 [Top]bandTest = bandCrotest(&amp;#39;603859&amp;#39;, bandFrom = 30, bandNum = 4)bandProfit(&amp;#39;603859&amp;#39;, bandRes = bandTest, plot = T, viewNum = 60)## Finally got 3 trading band: ## ## bandDate BS.Date buyN sellN price FinalHold money profit Hday Pro.day tags ## ----------- ----------- ----- ------ ------- ---------- -------- -------- ----- -------- --------## 2020-05-13 2020-05-20 700 0 33.036 700 26874.8 .</description>
+    </item>
     
     <item>
       <title>THS-1_hold</title>
