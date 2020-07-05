@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://flamboyant-gitcmd.netlify.app/"
 languageCode = "en-us"
 title = "THS_1 Trading Reports"
 theme = "hugo-lithium"
