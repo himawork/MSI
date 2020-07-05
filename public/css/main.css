@@ -92,7 +92,18 @@ code {
 }
 
 .content {
-  max-width: 960px;
+  scroll-behavior: auto; 
+  max-width: 560px;
+  margin: 40px auto 10px;
+  padding: 0 15px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.content-article {
+  scroll-behavior: auto; 
+  max-width: 1500px;
   margin: 40px auto 10px;
   padding: 0 15px;
   font-size: 16px;
@@ -270,6 +281,7 @@ code {
   }
 
   .content {
+    scroll-behavior: auto; 
     font-size: 19px;
     line-height: 1.8;
   }
@@ -316,6 +328,9 @@ code {
 @media print {
   .header, .footer {
     display: none;
+  }
+  .article-content a {
+    box-shadow: none;
   }
   .article-content a {
     box-shadow: none;

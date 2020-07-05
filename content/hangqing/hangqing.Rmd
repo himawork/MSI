@@ -1,12 +1,140 @@
 ---
 title: HangQingMap
 author: Himawork
-date: '2020-05-17'
+date: '2020-07-03'
 slug: hangqing
 categories:
-  - R
   - HTML
 tags:
-  - Reports
   - HangQ
 ---
+
+
+```{r load_apks, echo=FALSE, warning=FALSE}
+# load packages and functions ----
+suppressMessages({library(rvest); library(recharts)})
+K.dat = readRDS('e:/tess/SpySto.RDS')[['sting']]
+ScodeNum = sort(names(K.dat), decreasing = T)
+```
+
+### HangQing Map block-1 [[_Top_]](#)
+
+```{r bubble_plot_1, echo=FALSE, warning=FALSE}
+sto.dat = NULL
+for (sto in ScodeNum[1:50]) {
+  sto.dat.i = cbind.data.frame(Scode = sto, K.dat[[sto]]$dailyK[1:15, 1:7])
+  sto.dat = rbind.data.frame(sto.dat, sto.dat.i)
+}
+sel.date = as.Date(names(which(table(sto.dat$Date) > 10)))
+sto.dat = sto.dat[which(sto.dat$Date %in% sel.date),]
+sto.dat$Weekday = NA; sto.dat$gainlost = NULL
+for (i in 1:length(sto.dat$Date)) {
+  weekday = timeDate::dayOfWeek(timeDate::as.timeDate(sto.dat$Date[i]))[[1]]
+  sto.dat$Weekday[i] = weekday
+  sto.dat$gainlost[i] = ifelse(sto.dat$Change[i] > 0, 'Gain', 'Lose')
+  sto.dat$LOW[i] = ifelse(sto.dat$Change[i] > 0, sto.dat$LOW[i], -sto.dat$LOW[i])
+}
+sto.dat = sto.dat[order(sto.dat$Date,decreasing = F),]
+theme = c("asis", "default", "macarons", "infographic", "blue", "gray", "green", "helianthus", 
+          "macarons2", "mint", "red", "roma", "sakura", "shine", "vintage")[runif(1,1, 16)]
+echartr(sto.dat, x = round(log10(HIGH),2), y = LOW, t = 'Date', type='bubble', series = 'gainlost', weight = 'Change') %>% 
+  setTitle(subtitle = "HIGH/LOW price weighted buy changeR", pos = 12)  %>%  
+  setXAxis(name = "log10(HIGH)", axisLabel = list(textStyle=list(fontSize = 9))) %>% 
+  setTooltip(show=T, trigger = 'axis', bgColor = "rgba(0,0,0,0)", textStyle = list(fontSize = 10, color = 'black'))   %>% 
+  setTimeline(height = 80, label = list(rotate = 30, textStyle = list(fontSize = 9))) %>%
+  set_theme(width = 1300,height = 800, theme = theme) %>% 
+  setToolbox(show = T,controls = c("mark", "dataZoom", 'restore'))
+```
+
+<details>
+  <summary><mark><font color=darkred>Show details:</font></mark></summary>
+    <p>
+```{r rpivotTable_1, echo=FALSE, warning=FALSE}
+rpivotTable::rpivotTable(sto.dat, rows = 'Scode', cols = c('Date', 'Weekday'), aggregatorName = 'Average', 
+                         vals = 'CLOSE', rendererName = 'Row Heatmap', height = 1600)
+```
+
+</p>
+  </details>
+  
+### HangQing Map block-2 [[_Top_]](#)
+  
+```{r bubble_plot_2, echo=FALSE, warning=FALSE}
+sto.dat = NULL
+for (sto in ScodeNum[51:100]) {
+  sto.dat.i = cbind.data.frame(Scode = sto, K.dat[[sto]]$dailyK[1:15, 1:7])
+  sto.dat = rbind.data.frame(sto.dat, sto.dat.i)
+}
+sel.date = as.Date(names(which(table(sto.dat$Date) > 10)))
+sto.dat = sto.dat[which(sto.dat$Date %in% sel.date),]
+sto.dat$Weekday = NA; sto.dat$gainlost = NULL
+for (i in 1:length(sto.dat$Date)) {
+  weekday = timeDate::dayOfWeek(timeDate::as.timeDate(sto.dat$Date[i]))[[1]]
+  sto.dat$Weekday[i] = weekday
+  sto.dat$gainlost[i] = ifelse(sto.dat$Change[i] > 0, 'Gain', 'Lose')
+  sto.dat$LOW[i] = ifelse(sto.dat$Change[i] > 0, sto.dat$LOW[i], -sto.dat$LOW[i])
+}
+sto.dat = sto.dat[order(sto.dat$Date,decreasing = F),]
+theme = c("asis", "default", "macarons", "infographic", "blue", "gray", "green", "helianthus", 
+          "macarons2", "mint", "red", "roma", "sakura", "shine", "vintage")[runif(1,1, 16)]
+echartr(sto.dat, x = round(log10(HIGH),2), y = LOW, t = 'Date', type='bubble', series = 'gainlost', weight = 'Change') %>% 
+  setTitle(subtitle = "HIGH/LOW price weighted buy changeR", pos = 12)  %>%  
+  setXAxis(name = "log10(HIGH)", axisLabel = list(textStyle=list(fontSize = 9))) %>% 
+  setTooltip(show=T, trigger = 'axis', bgColor = "rgba(0,0,0,0)", textStyle = list(fontSize = 10, color = 'black'))   %>% 
+  setTimeline(height = 80, label = list(rotate = 30, textStyle = list(fontSize = 9))) %>%
+  set_theme(width = 1300,height = 800, theme = theme) %>% 
+  setToolbox(show = T,controls = c("mark", "dataZoom", 'restore'))
+```
+
+<details>
+  <summary><mark><font color=darkred>Show details:</font></mark></summary>
+  <p>
+  
+```{r rpivotTable_2, echo=FALSE, warning=FALSE}
+rpivotTable::rpivotTable(sto.dat, rows = 'Scode', cols = c('Date', 'Weekday'), aggregatorName = 'Average', 
+                         vals = 'CLOSE', rendererName = 'Row Heatmap', height = 1600)
+```
+
+</p>
+  </details>
+
+### HangQing Map block-3 [[_Top_]](#)
+  
+```{r bubble_plot_3, echo=FALSE, warning=FALSE}
+sto.dat = NULL
+for (sto in ScodeNum[101:length(ScodeNum)]) {
+  sto.dat.i = cbind.data.frame(Scode = sto, K.dat[[sto]]$dailyK[1:15, 1:7])
+  sto.dat = rbind.data.frame(sto.dat, sto.dat.i)
+}
+sel.date = as.Date(names(which(table(sto.dat$Date) > 10)))
+sto.dat = sto.dat[which(sto.dat$Date %in% sel.date),]
+sto.dat$Weekday = NA; sto.dat$gainlost = NULL
+for (i in 1:length(sto.dat$Date)) {
+  weekday = timeDate::dayOfWeek(timeDate::as.timeDate(sto.dat$Date[i]))[[1]]
+  sto.dat$Weekday[i] = weekday
+  sto.dat$gainlost[i] = ifelse(sto.dat$Change[i] > 0, 'Gain', 'Lose')
+  sto.dat$LOW[i] = ifelse(sto.dat$Change[i] > 0, sto.dat$LOW[i], -sto.dat$LOW[i])
+}
+sto.dat = sto.dat[order(sto.dat$Date,decreasing = F),]
+theme = c("asis", "default", "macarons", "infographic", "blue", "gray", "green", "helianthus", 
+          "macarons2", "mint", "red", "roma", "sakura", "shine", "vintage")[runif(1,1, 16)]
+echartr(sto.dat, x = round(log10(HIGH),2), y = LOW, t = 'Date', type='bubble', series = 'gainlost', weight = 'Change') %>% 
+  setTitle(subtitle = "HIGH/LOW price weighted buy changeR", pos = 12)  %>%  
+  setXAxis(name = "log10(HIGH)", axisLabel = list(textStyle=list(fontSize = 9))) %>% 
+  setTooltip(show=T, trigger = 'axis', bgColor = "rgba(0,0,0,0)", textStyle = list(fontSize = 10, color = 'black'))   %>% 
+  setTimeline(height = 80, label = list(rotate = 30, textStyle = list(fontSize = 9))) %>%
+  set_theme(width = 1300,height = 800, theme = theme) %>% 
+  setToolbox(show = T,controls = c("mark", "dataZoom", 'restore'))
+```
+
+<details>
+  <summary><mark><font color=darkred>Show details:</font></mark></summary>
+  <p>
+
+```{r rpivotTable_3, echo=FALSE, warning=FALSE}
+rpivotTable::rpivotTable(sto.dat, rows = 'Scode', cols = c('Date', 'Weekday'), aggregatorName = 'Average', 
+                         vals = 'CLOSE', rendererName = 'Row Heatmap', height = 1600)
+```
+
+</p>
+  </details>
